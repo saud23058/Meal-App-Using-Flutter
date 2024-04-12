@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meal_app/category_item.dart';
+import 'package:meal_app/widgets/category_item.dart';
 import 'package:meal_app/dummy_data.dart';
 
 class CategoriesScreen extends StatelessWidget {
@@ -10,7 +10,7 @@ class CategoriesScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text("DeliMeal"),
+        title: const Text("Meal App"),
         backgroundColor: Colors.purple[400],
       ),
       body: Padding(

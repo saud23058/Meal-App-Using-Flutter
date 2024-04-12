@@ -4,52 +4,52 @@ import 'package:meal_app/models/meal.dart';
 
 const DummyData =  [
   Category(
-    id: "1",
+    id: "c1",
     title: "Italian",
     color: Colors.purple,
   ),
   Category(
-    id: "2",
+    id: "c2",
     title: "Pakistani",
     color: Colors.yellow,
   ),
   Category(
-    id: "3",
+    id: "c3",
     title: "Afghani",
     color: Colors.green,
   ),
   Category(
-    id: "4",
+    id: "c4",
     title: "Indian",
     color: Colors.red,
   ),
   Category(
-    id: "5",
+    id: "c5",
     title: "Irani",
     color: Colors.pink,
   ),
   Category(
-    id: "6",
+    id: "c6",
     title: "Saudi",
     color: Colors.brown,
   ),
   Category(
-    id: "7",
+    id: "c7",
     title: "American",
     color: Colors.blue,
   ),
   Category(
-    id: "8",
+    id: "c8",
     title: "British",
     color: Colors.blueAccent,
   ),
   Category(
-    id: "9",
+    id: "c9",
     title: "Palistini",
     color: Colors.orangeAccent,
   ),
   Category(
-    id: "10",
+    id: "c10",
     title: "Australian",
     color: Colors.pinkAccent,
   ),
@@ -60,7 +60,7 @@ var mealsData = [
     id: 'm1',
     categories: ['c1', 'c2'],
     title: 'Spaghetti Carbonara',
-    imageUrl: 'assets/images/spaghetti_carbonara.jpg', // Placeholder image URL
+    imageUrl: 'https://pngimg.com/uploads/spaghetti/spaghetti_PNG110.png', // Placeholder image URL
     ingredients: [
       '4 Eggs',
       '100g Pancetta',
@@ -88,7 +88,7 @@ Meal(
     id: 'm2',
     categories: ['c3', 'c4'],
     title: 'Chicken Alfredo Pasta',
-    imageUrl: 'assets/images/chicken_alfredo_pasta.jpg',
+    imageUrl: 'https://pngimg.com/uploads/spaghetti/spaghetti_PNG110.png',
     ingredients: [
       'Chicken Breast',
       '300g Fettuccine Pasta',
