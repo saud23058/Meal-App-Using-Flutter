@@ -88,7 +88,7 @@ Meal(
     id: 'm2',
     categories: ['c3', 'c4'],
     title: 'Chicken Alfredo Pasta',
-    imageUrl: 'https://pngimg.com/uploads/spaghetti/spaghetti_PNG110.png',
+    imageUrl: '',
     ingredients: [
       'Chicken Breast',
       '300g Fettuccine Pasta',
